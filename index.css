@@ -149,5 +149,30 @@ main h1 {
 }
 
 main h2 {
-  margin-top: 5vh;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.btns {
+  margin-top: 1rem;
+}
+
+.btns a {
+  color: white;
+  transition: color 0.35s;
+  text-decoration: none;
+}
+
+.bi {
+  margin: 0 0.5rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.btns a:visited {
+  color: inherit;
+}
+
+.btns a:hover {
+  color: rgb(66, 41, 97);
 }
